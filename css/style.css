@@ -1,0 +1,60 @@
+body {
+	padding-top: 50px;
+	z-index: 0;
+}
+h2 {
+	color: #05a19c;
+}
+
+.background-img {
+	background-image: url("../images/jason-leung-537357-unsplash.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+.jumbotron,
+.footer {
+	background-color: #02576c;
+	color: #ffffff;
+}
+
+.navbar-dark {
+	background-color: #5588a3;
+}
+
+.content-row {
+	margin-top: 80px;
+}
+
+.history {
+	margin-top: 50px;
+}
+
+.history,
+.footer {
+	padding: 50px 0;
+}
+
+.history-rider {
+	padding-bottom: 30px;
+}
+.history,
+.corporate {
+	padding: 0 30px;
+}
+
+.corporate {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+/* ===================================
+Contact us 
+======================================*/
+.contact-us,
+.location-info,
+.feedback {
+	margin: 30px 0 50px 0;
+}
