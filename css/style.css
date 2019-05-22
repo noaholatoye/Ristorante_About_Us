@@ -58,6 +58,19 @@ hr {
 	padding-bottom: 50px;
 }
 
+.reserve-table {
+	background-color: #738598;
+}
+
+.reserver-btn {
+	background-color: #1cb3c8;
+	border-color: #1cb3c8;
+	width: 100%;
+}
+.reserver-btn:hover {
+	background-color: #3c415e;
+}
+
 /* ===================================
 Contact us 
 ======================================*/
@@ -66,3 +79,12 @@ Contact us
 .feedback {
 	margin: 30px 0 50px 0;
 }
+
+/* ===============================
+  Media query @ 574px
+  ================================== */
+/* @media (min-width: 574px) {
+	.navbar-brand img {
+		display: none;
+	}
+} */
