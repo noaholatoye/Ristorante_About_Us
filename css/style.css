@@ -1,116 +1,62 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: #02576c;
+  margin: 0px auto;
+  padding: 20px 0px;
+  color: #ddd;
+}
+li a,
+address a {
+  color: #7fa9c0;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #5588a3;
+  color: floralwhite;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
 body {
-	padding-top: 50px;
-	z-index: 0;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-h2 {
-	color: #05a19c;
-}
-
-hr {
-	margin: 60px 0;
-}
-
-/* .background-img {
-	background-image: url("../img/jason-leung-537357-unsplash.jpg");
-	height: 500px;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100%;
-} */
-
-.jumbotron,
-.footer {
-	background-color: #02576c;
-	color: #ffffff;
-}
-
 .navbar-dark {
-	background-color: #5588a3;
+  background-color: #02576c;
 }
-
-.content-row {
-	margin-top: 80px;
-}
-
-.history {
-	margin-top: 50px;
-}
-
-.history,
-.footer {
-	padding: 50px 0;
-}
-
-.footer {
-	margin-top: 70px;
-}
-
-.history-rider {
-	padding-bottom: 30px;
-}
-/* .history,
-.corporate {
-	padding: 0 30px;
-} */
-
-.corporate {
-	padding-top: 30px;
-	padding-bottom: 50px;
-}
-
-.reserve-table {
-	background-color: #738598;
-}
-
-.reserver-btn {
-	background-color: #1cb3c8;
-	border-color: #1cb3c8;
-	width: 100%;
-}
-.reserver-btn:hover {
-	background-color: #3c415e;
-}
-
-/* ===================================
-About us 
-======================================*/
 .tab-content {
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	padding: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
-
-/* ===================================
-Contact us 
-======================================*/
-.contact-us,
-.location-info,
-.feedback {
-	margin: 30px 0 50px 0;
-}
-
-/* ===============================
-  Media query @ 574px
-  ================================== */
-/* @media (min-width: 574px) {
-	.navbar-brand img {
-		display: none;
-	}
-} */
-
 .carousel {
-	background: rgba(60, 65, 94, 0.7);
+  background: rgba(60, 65, 94, 0.7);
 }
-
-.carousel-item {
-	height: 300px;
+.carousel .carousel-item {
+  height: 300px;
 }
-
-.carousel-item img {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	min-height: 300px;
-	z-index: -1;
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+  z-index: -1;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
 }
