@@ -1,7 +1,8 @@
+$white: #fff;
 $lt-gray: #ddd;
 $background-dark: #02576c;
 $background-light: #5588a3;
-$background-pale: #7fa9c0;
+$background-pale: #bed9e7;
 $opacity-dark: rgba(60, 65, 94, 0.7);
 
 // Height variables
@@ -42,7 +43,7 @@ address a {
 address {
 	font-size: 80%;
 	margin: 0px;
-	color: #0f0f0f;
+	color: $white;
 }
 
 body {
@@ -87,4 +88,18 @@ body {
 	right: 0px;
 	position: absolute;
 	bottom: 0px;
+	z-index: 10;
+}
+
+// Model style
+.modal-body {
+	background-color: $background-pale;
+}
+
+.modal-header {
+	background-color: $background-dark;
+	color: $white;
+}
+.close {
+	color: $white;
 }

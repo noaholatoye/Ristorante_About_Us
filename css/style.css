@@ -16,7 +16,7 @@
 
 li a,
 address a {
-  color: #7fa9c0; }
+  color: #bed9e7; }
 
 .jumbotron {
   margin: 0px auto;
@@ -27,7 +27,7 @@ address a {
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
+  color: #fff; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -63,6 +63,17 @@ body {
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  z-index: 10; }
+
+.modal-body {
+  background-color: #bed9e7; }
+
+.modal-header {
+  background-color: #02576c;
+  color: #fff; }
+
+.close {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

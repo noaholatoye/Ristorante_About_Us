@@ -23,4 +23,14 @@ $(document).ready(function() {
 				.addClass("fa-pause");
 		}
 	});
+
+	// Login Button
+	$("#login-button").click(function() {
+		$("#login-modal").modal("toggle");
+	});
+
+	// Reservation Button
+	$("#reservation-button").click(function() {
+		$("#reservation-modal").modal("toggle");
+	});
 });
