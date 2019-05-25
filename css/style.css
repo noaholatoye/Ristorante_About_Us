@@ -72,8 +72,7 @@ body {
 .modal-header {
   background-color: #02576c;
   color: #fff; }
-
-.close {
-  color: #fff; }
+  .modal-header .close {
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

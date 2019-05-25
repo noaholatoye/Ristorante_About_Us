@@ -99,7 +99,7 @@ body {
 .modal-header {
 	background-color: $background-dark;
 	color: $white;
-}
-.close {
-	color: $white;
+	.close {
+		color: $white;
+	}
 }
